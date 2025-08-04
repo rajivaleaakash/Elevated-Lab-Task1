@@ -45,14 +45,14 @@ Data Cleaning, preprocessing and analysing :- Customers Personality Analysis Dat
 ##### Used the different graphs to understand the data more easily and effectivily.
 
 ## Tools Used:
--Python
--Pandas
--Numpy
--Matplotlib
--Seaborn
+##### Python
+##### Pandas
+##### Numpy
+##### Matplotlib
+##### Seaborn
 
 ## Final Output:
--Clean Dataset:
+##### Clean Dataset:
 clean_marketing_campaign.csv
--Code Script:
+##### Code Script:
 Day1.ipynb
