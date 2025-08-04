@@ -38,21 +38,21 @@ Data Cleaning, preprocessing and analysing :- Customers Personality Analysis Dat
 ##### 4.NumWebVisitsMonth: Number of visits to company’s website in the last month
 
 # Cleaning Steps Performed
-checked if there is any null value present in the dataset
-Founded that Income column having 24 NaN value.
-I am not remove the null values because dataet set have vary less records but we can remove them if dataset have significant records.
-soo i filled the NaN values with mean Income of respective Education group.
+##### Load the data in the workspace. 
+##### Rename columns to understand the data properly.
+##### Handled Missing Values from columns like "Income".
+##### create the new features from Existing Column like "Age" from "Year_Birth".
+##### Used the different graphs to understand the data more easily and effectivily.
 
-Extract the "Age" of a customer by the "Year_Birth" indicating the birth year of the respective person.
-Create another feature "Spent" indicating the total amount spent by the customer in various categories over the span of two years.
-Create another feature "Living_With" out of "Marital_Status" to extract the living situation of couples.
-Create a feature "Children" to indicate total children in a household that is, kids and teenagers.
-To get further clarity of household, Creating feature indicating "Family_Size"
-Create a feature "Is_Parent" to indicate parenthood status
-Lastly, I will create three categories in the "Education" by simplifying its value counts.
-Dropping some of the redundant features
+## Tools Used:
+-Python
+-Pandas
+-Numpy
+-Matplotlib
+-Seaborn
 
-stats show that there is some descripancies in mean Income and Age as well as max Income and Age.
-Do note that max-Age is 132 years, As i calculated the Age that would be today (i.e. 2025) and the data is old.
-I look at the boarder view of the data. I plot some of the selected features.
-I deleted the age records that is more than 90 and Income more than 600000
+## Final Output:
+-Clean Dataset:
+clean_marketing_campaign.csv
+-Code Script:
+Day1.ipynb
