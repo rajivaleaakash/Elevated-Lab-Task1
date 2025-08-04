@@ -4,6 +4,7 @@ Data Cleaning, preprocessing and analysing Customers Personality Dataset
 Features :-
 
 People
+
 ID: Customer's unique identifier
 Year_Birth: Customer's birth year
 Kidhome: Number of children in customer's household
@@ -14,6 +15,7 @@ Complain: 1 if the customer complained in the last 2 years, 0 otherwise
 
 
 Products
+
 MntWines: Amount spent on wine in last 2 years
 MntFruits: Amount spent on fruits in last 2 years
 MntMeatProducts: Amount spent on meat in last 2 years
@@ -23,6 +25,7 @@ MntGoldProds: Amount spent on gold in last 2 years
 
 
 Promotion
+
 NumDealsPurchases: Number of purchases made with a discount
 AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise
 AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise
@@ -33,6 +36,7 @@ Response: 1 if customer accepted the offer in the last campaign, 0 otherwise
 
 
 Place
+
 NumWebPurchases: Number of purchases made through the company’s website
 NumCatalogPurchases: Number of purchases made using a catalogue
 NumStorePurchases: Number of purchases made directly in stores
